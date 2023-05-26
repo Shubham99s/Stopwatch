@@ -7,7 +7,7 @@ class Stopwatch extends Component {
   state = initialState
 
   componentWillUnmount() {
-    this.clearTimeInterval()
+    this.clearTimerInterval()
   }
 
   clearTimerInterval = () => clearInterval(this.intervalId)
